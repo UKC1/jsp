@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Request Ex1</h1>
+	<form method="post" action="01_1.request.jsp">
+		이름 : <input name="name"><p/>
+		학번 : <input name="studentNum"><p/>
+		성별 : 남자<input type="radio" name="gender" value="M" checked>&emsp;
+			  여자<input type="radio" name="gender" value="F"><p/>
+		전공 : <select name="major">
+				<option value="국문학과">국문학과</option>
+				<option value="컴퓨터학과">컴퓨터학과</option>
+				<option value="수학과">수학과</option>
+				<option value="철학과">철학과</option>
+				<option value="정치학과">정치학과</option>
+			  </select><p/>
+		취미 : 
+		<input type="checkbox" name="hobby" value="축구">축구&emsp;
+		<input type="checkbox" name="hobby" value="음악감상">음악감상&emsp;
+		<input type="checkbox" name="hobby" value="볼링">볼링&emsp;
+		<input type="checkbox" name="hobby" value="여행">여행&emsp;
+		<input type="checkbox" name="hobby" value="야구">야구<p/>
+		
+		<input type="submit" value="보내기">
+	</form>
+</body>
+</html>
