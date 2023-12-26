@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-        
-    <wb-module deploy-name="ch01_scriptlet">
-                
+    <wb-module deploy-name="ch08_vote">
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                
-        <property name="java-output-path" value="/ch01_scriptlet/build/classes"/>
-        <property name="context-root" value="ch01_scriptlet"/>
-            
+        <property name="context-root" value="ch08_vote"/>
+        <property name="java-output-path" value="/ch08_vote/build/classes"/>
     </wb-module>
-    
 </project-modules>
