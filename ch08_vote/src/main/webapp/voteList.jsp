@@ -12,7 +12,7 @@
 <style>
 	* {margin: 0 auto;}
 	div {width:800px;}
-	h2, h5 {text-align:center; }
+	h2, h5, .cen {text-align:center; }
 	.m50 {margin-top:50px;}
 	.m30 {margin-top:30px;}
 	table {margin-top: 30px; width:800px;}
@@ -43,12 +43,12 @@
 				VoteList vlist = alist.get(i);
 				int num = vlist.getNum();
 				String question = vlist.getQuestion();
-				String sdate = vlist.getSdate();
-				String edate = vlist.getEdate();
+				String sdate = vlist.getSdate().substring(0,10);
+				String edate = vlist.getEdate().substring(0,10);
 				
 				out.print("<tr><td>" + (alist.size()-i) + "</td>");
 				out.print("    <td><a href='voteList.jsp?num="+ num +"'>"+question+"</a></td>");
-				out.print("    <td>" + sdate + " ~ " + edate + "</td></tr>");
+				out.print("    <td class='cen'>" + sdate + " ~ " + edate + "</td></tr>");
 			}
 			%>
 			<tr>
