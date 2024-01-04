@@ -22,11 +22,11 @@ public class ElServlet extends HttpServlet {
 		 2. HttpSession(session Scope)
 		 	한 브라우저당 1개 존재하는 객체
 		 	이 영역에 데이터를 담으면 jsp/servlet 단에서 사용가능
-		 	공유범위가 2번째로 큼
+		 	공유범위가 2번째로 큼(jsp/servlet)
 		 3. HttpServletRequest(request Scope)
 		 	요청 때마다 매번 생성되는 객체
 		 	이 영역에 데이터를 담으면 해당 request객체를 포워딩 받는 응답 jsp에서만 사용가능
-		 	공유범위가 응답jsp에서만 사용가능
+		 	공유범위가 응답 jsp(servlet)에서만 사용가능
 		 4. PageContext(page Scope)
 		 	jsp마다 존재하는 객체
 		 	공유범위가 가장 작음(해당 페이지)
@@ -40,7 +40,7 @@ public class ElServlet extends HttpServlet {
 		// requestScope에 담기
 		request.setAttribute("classRoom", "3강의장");
 		request.setAttribute("student", new Person("김강민",23,"남자"));
-		
+
 		// sessionScope에담기
 		HttpSession session = request.getSession();
 		session.setAttribute("academy", "AddInEdu");
