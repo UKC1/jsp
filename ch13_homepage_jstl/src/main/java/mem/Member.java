@@ -1,4 +1,4 @@
-package member;
+package mem;
 
 import java.util.Arrays;
 

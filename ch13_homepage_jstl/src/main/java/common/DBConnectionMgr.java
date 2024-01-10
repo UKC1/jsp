@@ -22,7 +22,7 @@
  * TO THE SOFTWARE.
  *
  */
-package member;
+package common;
 
 import java.sql.*;
 import java.util.Properties;

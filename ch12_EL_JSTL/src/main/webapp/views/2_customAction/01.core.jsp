@@ -108,6 +108,8 @@
 		<h4>Bye JSP</h4>
 	</c:if>
 	
+	<hr>
+	
 	<h3>3. Choose - (c:choose, c:when, c:otherwise)</h3>
 	<pre>
 		-JAVA의 if-else, if-else if 문과 비슷한 역할을 하는 태그
@@ -125,6 +127,8 @@
 			<b>num1은 20보다 작은 수</b>
 		</c:otherwise>
 	</c:choose>
+	
+	<hr>
 	
 	<h3>4. 반복문 - (forEach) </h3>
 	<pre>

@@ -41,6 +41,6 @@
 	 -->
 	 
 	 <h3>* Custom Action Tag</h3>
-	 <a href="views/2_coustomAction/jstl.jsp">JSTL</a>
+	 <a href="views/2_customAction/jstl.jsp">JSTL</a>
 </body>
 </html>

@@ -1,8 +1,8 @@
-package member;
+package mem;
 
 import java.sql.*;
 
-import member.DBConnectionMgr;
+import common.DBConnectionMgr;
 
 public class MemberDao {
 	private DBConnectionMgr pool;
